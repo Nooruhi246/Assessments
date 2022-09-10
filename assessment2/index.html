@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <h1>Sales Tax Calculation</h1>
+        <p>Please Enter Item and Price of sale:</p>
+        Select category
+        <select id="select">
+            <option value="books">Books</option>
+            <option value="food">Food</option>
+            <option value="medical">Medical</option>
+            <option value="import">Imported</option>
+            <option value="other">Other</option>
+        </select>
+        Item: <input type="text" id="item">
+        Amount: <input type="text" id="amount" />
+        <input type="button" id="button" value="Calculate Tax" />
+        <!-- <p id="result"></p> -->
+    </div>
+
+    <div id="result">
+
+    </div>
+    <hr>
+    <p id="sales"></p>
+    <hr>
+    <p id="total"></p>
+    <script src="script.js"></script>
+</body>
+</html>
